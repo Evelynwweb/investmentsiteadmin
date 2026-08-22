@@ -47,7 +47,7 @@ export default function Login() {
               id="email" type="email" required autoFocus className="input"
               value={form.email}
               onChange={(e) => { setError(''); setForm((f) => ({ ...f, email: e.target.value })); }}
-              placeholder="admin@betamentmgt.com"
+              autoComplete="username"
             />
           </div>
           <div>
@@ -56,7 +56,7 @@ export default function Login() {
               id="password" type="password" required className="input"
               value={form.password}
               onChange={(e) => { setError(''); setForm((f) => ({ ...f, password: e.target.value })); }}
-              placeholder="••••••••"
+              autoComplete="current-password"
             />
           </div>
 
