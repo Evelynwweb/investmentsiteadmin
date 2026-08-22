@@ -28,9 +28,9 @@ export default function Login() {
     <div className="min-h-screen flex items-center justify-center px-4">
       <form onSubmit={submit} className="card w-full max-w-[380px] p-7">
         <div className="flex items-center gap-2.5 mb-6">
-          <img src="/alogo.svg" width={34} height={34} alt="" />
+          <img src="/blogo.svg" width={34} height={34} alt="" />
           <div>
-            <p className="text-[15px] font-bold leading-tight">Aurivest</p>
+            <p className="text-[15px] font-bold leading-tight">Betament</p>
             <p className="text-[10px] uppercase tracking-widest text-[color:var(--gold-bright)]">Admin</p>
           </div>
         </div>
@@ -47,7 +47,7 @@ export default function Login() {
               id="email" type="email" required autoFocus className="input"
               value={form.email}
               onChange={(e) => { setError(''); setForm((f) => ({ ...f, email: e.target.value })); }}
-              placeholder="admin@aurivest.com"
+              placeholder="admin@betamentmgt.com"
             />
           </div>
           <div>

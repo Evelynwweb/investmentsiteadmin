@@ -1,6 +1,6 @@
-# Aurivest Admin
+# Betament Admin
 
-The back-office panel for the Aurivest platform — approvals, KYC review, lending decisions,
+The back-office panel for the Betament platform — approvals, KYC review, lending decisions,
 client management and platform settings.
 
 Same amber palette as the client app, retuned for dense admin surfaces: flatter, higher

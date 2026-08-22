@@ -39,9 +39,9 @@ export default function Layout() {
         className={`fixed lg:static inset-y-0 left-0 z-40 w-[236px] flex flex-col border-r border-[color:var(--line-soft)] bg-[color:var(--bg-soft)] p-4 transition-transform lg:translate-x-0 overflow-y-auto ${open ? 'translate-x-0' : '-translate-x-full'}`}
       >
         <div className="flex items-center gap-2.5 px-2 py-2 mb-5">
-          <img src="/alogo.svg" width={32} height={32} alt="" />
+          <img src="/blogo.svg" width={32} height={32} alt="" />
           <div>
-            <p className="text-[13.5px] font-bold leading-tight">Aurivest</p>
+            <p className="text-[13.5px] font-bold leading-tight">Betament</p>
             <p className="text-[10px] uppercase tracking-widest text-[color:var(--gold-bright)]">Admin</p>
           </div>
         </div>
@@ -80,7 +80,7 @@ export default function Layout() {
       <div className="min-w-0">
         <header className="lg:hidden flex items-center gap-3 px-4 py-3 border-b border-[color:var(--line-soft)]">
           <button onClick={() => setOpen(true)} className="btn btn-ghost btn-sm" aria-label="Menu"><Menu size={16} /></button>
-          <p className="text-[13.5px] font-bold">Aurivest Admin</p>
+          <p className="text-[13.5px] font-bold">Betament Admin</p>
         </header>
         <main className="p-4 md:p-7 max-w-[1240px]">
           <Outlet />
